@@ -27,6 +27,9 @@ const routes = (handler) => [
     method: "PUT",
     path: "/notes/{id}",
     handler: handler.putNoteByIdHandler,
+    options: {
+      auth: "notesapp_jwt",
+    },
   },
   {
     method: "DELETE",
