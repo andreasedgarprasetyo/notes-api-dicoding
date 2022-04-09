@@ -1,3 +1,7 @@
+/* eslint-disable linebreak-style */
+/* eslint-disable no-underscore-dangle */
+/* eslint-disable linebreak-style */
+/* eslint-disable quotes */
 const ClientError = require("../../exceptions/ClientError");
 
 class UsersHandler {
